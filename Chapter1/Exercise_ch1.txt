@@ -1,0 +1,79 @@
+1. Which of the following are operators and which are values?
+Ans.Operators: *,-,/,+
+values: 'hello', -88.8, 5
+
+2. spam is a variale and 'spam' is a string
+
+3. 3 different data types: Integer, Floating point and String data types
+
+4. Concatenation operator:
+'Alice' +'Bob' = 'AliceBob'
+
+'Alice' * 5 = 'AliceAliceAliceAliceAlice'
+
+5. variable names rules:
+1. It can be only one word.
+2. It can use only letters, numbers and the underscore character.
+3. It can't begin with a number.
+
+a. variable names are case sensitive
+b. it uses camel case
+
+6. myName = input()  ## to input an value to a variable
+7. len()  ## length of the value
+
+8. Print statement
+
+print('You will be' +str(int(Age)+1) + 'in a year.')
+
+9. Comments
+
+# This program says hello and asks for my name
+
+10. Python ignores the blank line after the comment. we can add as many blank lines to our program. 
+This can make our code easier to raed, like paragraphs in a book. 
+
+11. The Str(), int() and float() functions
+
+the str(), int() and float() functions will evaluate to the string, integer, and floating-point forms
+of the value you pass respectively.
+
+The int() function is also useful if you need to round a floating-point number down.
+
+int(7.7) = 7
+
+42 == '42' FALSE
+
+42 == 42.0 TRUE
+
+42.0 == 0042.00 TRUE
+
+Python makes this distinction because strings are text, while integers and floats are both numbers.
+
+12. What is an expression made up of? What do all expressions do?
+
+Expressions consist of values and operators and they can always evaluate down to a single value.
+A single value with no operators is also considered an expresssion. 
+
+13. Expression and a statement
+expression = programming instruction
+
+14. Bacon = 20
+Bacon+1
+
+output = Bacon = 21
+
+15. 'spam' + 'spamspam' = 'spamspamspam'
+
+'spam' * 3 = 'spamspamspam'
+
+16. eggs is a lowercase letter, 100 is a digit
+
+17. int(), float() and str()
+
+18. 'I have eaten' + '99' + 'burritos.'
+I have eaten 99 burritos.
+
+ 
+
+

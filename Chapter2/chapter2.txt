@@ -1,0 +1,76 @@
+1.Boolean values : True or False
+2. Comparison Operators : compare 2 values. == and != operators work with values of any data type, 
+where as <, >, <= and >= operators work properly with integer and floating point values.
+3. Boolean Operators: and, or, not. 
+4. Elements of flow chart: Conditions, Blocks of code
+5. if, elif, else
+if condition:
+else:
+elif condition:
+
+6. while loop statement
+while condition:
+7. break staement
+if the execution reaches a break stement, it immediately exits the while loop's clause.
+8.continue statement:
+these staements are inside the loop. when the program execution reaches a continue statement,
+the program execution immediately jumps back to the start of the loop and reevelauates the loop's condition.
+9. for loop and the range() function
+for i in range(5):
+	print(i)
+
+it will print 0,1,2,3,4
+it sets from 0
+
+break and continue statement can be written inside for and while loop.
+
+10. starting, stopping and stepping in range
+
+range(starting, stopping, stepping)
+
+11. Importing modules:
+import keyword
+the name of the module
+optionally, more module names, as long as they are separated by commas
+
+import math
+import random, sys, os
+
+12. Ending a program early with sys.exit()
+the program can be terminated or exited by calling the sys.exit() function.
+
+Practice questions:
+1. True and False 
+2.or, and , not
+3. TT,TF,FT,FF
+and 1,0,0,0
+or 1,1,1,0
+4. F, F, T, F,F,T
+5. ==,<,<=,>,>=,!=
+6. condition : a flow control statement. it always evaluate T or F.in If elif and while statement
+7. == and =
+9. spam = input()
+if spam == 1:
+	print("Hello")
+	elif spam == 2:
+		print("howdy")
+		else:
+			print("Greetings")
+10. escape
+
+11.Break exit from the loop. continue reevaluate the condition
+12. start, strat and stop, strat , stop and step
+13. for i in range(10):
+	print(i+1)
+i = 0
+while i<10:
+	print(i+1)
+
+14. import spam sp
+sp.bacon()
+
+
+
+
+
+

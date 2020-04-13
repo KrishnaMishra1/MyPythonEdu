@@ -1,0 +1,123 @@
+Functions
+
+1. A function is like a mini-program within a program
+firstProg.py
+def hello():
+	print('abc')
+	print('abc!!')
+	print('abc.')
+
+hello()
+hello()
+hello()
+
+output:
+'abc'
+'abc!!'
+'abc.'
+'abc'
+'abc!!'
+'abc.'
+'abc'
+'abc!!'
+'abc.'
+
+2. def Statements with Parameters
+secondProg.py
+
+def hello(name):
+	print('Hello ' + name)
+
+hello('Bob')
+hello('Alice')
+
+Hello Bob
+Hello Alice
+
+hello() function is called.
+A parameter is a variable that an argument is stored in when the function is called.
+
+3. Return Values and return Statements
+
+The value that a function call evelautes to is called the return value of the function.
+
+A return statement consists of the following:
+a. The return keyword
+b. The value or expression taht teh function should return
+
+Expressions are composed of values and operators. 
+A function call can be used in an expression because it evaluates to its return value.
+
+4. The None Value:
+In Python there is a value called None, which represents the absence of a value. 
+None is the only value of the NoneType data type.
+None must be typed with a capital N.
+
+This value-without-a-value can be helpful when you need to store something
+that won't be confused for a real value in a variable.
+
+One place where None is used is as the return value of print()
+
+spam = print('Hello')
+None == spam
+True
+
+If we use a return staement without a value, then None is returned.
+
+5. Keyword Arguments and print()
+
+the print() function has the optional parameters "end" and "sep" to specify
+what should be printed atthe end of its arguments and between its arguments.
+
+print('Hello', end = '')
+print('world')
+
+Helloworld
+
+print('cats', 'dogs', 'mice')
+cats dogs mice
+
+print('cats', 'dogs', 'mice', sep = ',')
+cats,dogs,mice
+
+6. Local and Global Scope
+Parameters and variables that are assigned in a called function are said to exists in that function's local scope.
+Variables that are assigned outside all functions are said to exists in the global scope.
+
+A variable, that exist in local scope is known as local variable.
+A variable, that exist in the global scope is known as global variable.
+
+Scopes matter for several reasons:
+1. Code in the global scope cann't use any local variables.
+2. However, a local scope can access global variables.
+3. Code in a function's local scope cannot use variables in any other local scope.
+4. You can use the same name for different variables if theyt are in different scopes. that is , there can be a local 
+variable named spam and a global variable also name spam.
+
+7. Zero division error
+
+def spam(divideBy):
+	try:
+		return 42/divideBy
+	except ZeroDivisionError:
+		print('Error: Invalid argument.')
+
+print(spam(2))
+print(spam(12))
+print(spam(0))
+print(spam(1))
+
+output:
+21.0
+3.5
+Error: Invalid argument
+None
+42.0
+
+
+
+
+
+
+
+
